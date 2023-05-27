@@ -1,0 +1,93 @@
+html {
+	min-height: 100%; /* eliminates content-shift */
+	margin-bottom: 1px; /* eliminates content-shift */
+	}
+
+body {
+}
+
+body {
+	font-size: 100%; /* for IE */
+	font-family: Georgia, serif;
+	color: #333;
+	padding-bottom: 2em;
+	margin: 10px auto;
+	max-width: 45em;
+	}
+
+html>body {
+	font-size: 16px; /* non-IE */
+	}
+
+/* Typography */
+em { font-style: italic; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {font-weight: bold ;}
+
+h1 {
+	font-size: 200%;
+	line-height: 1.5em ;
+}
+h2 {
+	font-size: 150%;
+	line-height: 1.2em;
+}
+h3 {
+	font-size: 120%;
+	line-height: 1.4em;
+}
+h4 {
+	font-size: 110%;
+	line-height: 1.4em;
+}
+h5 {
+	font-size: 100%;
+	line-height: 1.2em;
+}
+h6 {
+	font-size: 90%;
+	line-height: 1.2em;
+}
+hr {
+	color: black;
+	background-color: black;
+	border: none;
+	height: 5px;
+}
+
+p {
+	line-height: 1.5em; /* 24px */
+	font-size: 1em; /* 16px */
+	}
+a {
+	font-weight: normal;
+	text-decoration: none;
+	}
+
+a[href] {
+  text-decoration: underline;
+  font-weight : normal;
+  }
+
+a[href]:hover {
+	color: black;	
+	background: white;
+}
+
+a[href]:active {
+	background: transparent;
+	text-decoration: none;
+}
+
+.details ul li { padding: 5px;}
+
+
+@media print {
+	* {
+		color: black;
+		background: white;	
+		font-size: 5.6mm;
+	}
+}
+
+
